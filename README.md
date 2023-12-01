@@ -1,5 +1,5 @@
 # Assignment1
-# BOL4 website revamp
+# BOL4 website
 
 ## Design Process
 The homepage now serves as a vibrant hub for the latest concert news from various locations, featuring events where fans can meet and greet their favorite artists. Additionally, we showcase newly released music videos and albums prominently, ensuring they capture immediate attention.

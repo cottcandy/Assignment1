@@ -1,73 +1,86 @@
 # Assignment1
 # BOL4 website revamp
 
-# Idea
+## Design Process
 The homepage now serves as a vibrant hub for the latest concert news from various locations, featuring events where fans can meet and greet their favorite artists. Additionally, we showcase newly released music videos and albums prominently, ensuring they capture immediate attention.
 
 To foster a deeper connection with the artist, the profile section, providing personal details such as the singer's name, date of birth, and height. This section is designed to make fans feel closer to the artist by offering insights into their background.
 
-In the Discography section, users can explore the different albums the artist has released, allowing them to discover and enjoy music tailored to their preferences. Hover pop-outs have been incorporated to enhance the user experience. Specifically, when hovering over the "Profile" page, the title becomes italicized and bold, providing a visual cue to users. Similarly, hovering over albums in the "Discography" section triggers pop-outs for an interactive exploration.
+In the Discography section, users can explore the different albums the artist has released, allowing them to discover and enjoy music tailored to their preferences. Hover pop-outs have been incorporated to enhance the user experience. Specifically, when in the "Profile" page, the title becomes italicized and bold, providing a visual cue to users. Similarly, hovering over albums in the "Discography" section becomes opaque for an interactive exploration.
 
 The Schedule section is dedicated to providing real-time updates on tours and ongoing events, empowering fans to stay informed about concert dates and venues. This feature is aimed at expanding the audience and ensuring more fans can attend these exciting events.
 
 Finally, at the bottom of each page, included links to the artist's various social media accounts. This serves as a gateway for fans to delve into the artist's lifestyle, itinerary, and stay informed about upcoming concerts or song releases. To enhance user interaction, links change color when explored, offering a subtle visual indicator.
 
-## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website is made for those who are interested in knowing more about BOL4, such as the music that's published and about her. Also, to promote BOL4's released albums and keeping track of any events that will happen. My project included about BOL4 for users who want to know more about her and the discography to showcase her released albums.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+XD share url: https://xd.adobe.com/view/5cdcdf4b-2d55-4c7f-96d0-ac362674d41b-098f/
 
 ## Features
+Firstly the title, it links to the different pages back and fourth. When in moving to different pages, the title becomes italicized and bold For example, when in the "Profile" page, the title becomes italicized and bold, providing a visual cue to users. Similarly, hovering over albums in the "Discography" section becomes opaque for an interactive exploration. This is also implemented for the music videos. When users want to see the music video, it brings the user to the bottom of the homepage (index.html) to view them. The "Schedule" page has a special feature which has a countdown that calculates the number of days to the next event.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+Dynamic Title Formatting:
+Description: The title dynamically changes formatting based on the current page, providing a visual cue to users about their location in the website.
+How to Test: Navigate to different pages (e.g., Profile, Discography) and observe the changes in title formatting.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Hover Effects for Discography:
+Description: Hovering over albums in the "Discography" section triggers an opacity effect, enhancing the interactive exploration experience.
+How to Test: Hover over album images in the Discography section and observe the opacity change.
+
+Countdown Feature in Schedule:
+Description: The "Schedule" page includes a countdown feature that calculates the number of days to the next event.
+How to Test: Check the "Schedule" page and verify that the countdown accurately reflects the days to the upcoming event.
 
 ### Features Left to Implement
-- Another feature idea
+Autoplay for Music Videos:
+Description: Implement autoplay functionality for music videos when users hover over them.
+Expected Result: Music videos start playing automatically when hovered.
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+w3schools https://www.w3schools.com/
+it helped me in doing flexboxes and most of the css codes.
+i learned how to use functions in javascript here to make the calculating of the countdown.
 
 ## Testing
+Title Formatting Test:
+Scenario: Navigate to different pages and ensure that the title formatting changes accordingly.
+Expected Result: The title becomes italicized and bold on the "Profile" page, providing a visual cue to users.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Opacity Effect Test:
+Scenario: Hover over album images in the "Discography" section.
+Expected Result: Album images become opaque on hover, enhancing the interactive experience.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+Countdown Accuracy Test:
+Scenario: Check the "Schedule" page and verify that the countdown accurately reflects the days to the upcoming event.
+Expected Result: The countdown should decrease correctly each day.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+This project works the same on different browsers and screen sizes.
 
 ## Credits
+vid1: https://www.youtube.com/watch?v=f_fCseIgebU
+vid2: https://www.youtube.com/watch?v=haceXrrm-LU&list=OLAK5uy_k0pDT6A180YLMj2ZWsnffbjHmPjRdYq0M&index=2
+vid3: https://www.youtube.com/watch?v=r_ALdsMbwqI&list=OLAK5uy_kyLl3OemO27E3Qz9uFLal6H9UMTC6y9pE&index=2
+calibri font: https://www.downloadfonts.io/download/calibri-font/
+chinese.sthupo font: https://www.wfonts.com/font/sthupo
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+The text from profile was copied from https://en.wikipedia.org/wiki/Bolbbalgan4
 
 ### Media
-- The photos used in this site were obtained from ...
+youtube icon: https://commons.wikimedia.org/wiki/File:YouTube_social_red_circle_%282017%29.svg
+twitter icon: https://pngtree.com/freepng/twitter-social-media-round-icon_8704823.html
+facebook icon: https://en.wikipedia.org/wiki/File:Facebook_f_logo_%282021%29.svg
+index (homepage), profile, discography, schedule image: https://www.allkpop.com/article/2023/03/bol4-reveals-beautiful-concept-photos-for-lovezip
+album photos: 
+album: https://www.deezer.com/en/artist/11615665
+album1: https://www.kkbox.com/sg/en/album/GtGj-eiePneccGic1W
+album2: https://open.spotify.com/album/0d3mf5fBaIBbozCgeEI9AE
+album3: https://kindie.fandom.com/wiki/Seoul
+album4: https://www.albumoftheyear.org/artist/37419-bol4/#google_vignette
+album5: https://colab.research.google.com/drive/15eZ5DBaLgOIHT5FDC5FB8ZyDyMg57JJx
 
 ### Acknowledgements
-
-- I received inspiration for this project from X
+I received inspiration for this website from: 
+https://www.sourcemusic.com/artist/profile/LE%20SSERAFIM
+https://bol4.jp/
